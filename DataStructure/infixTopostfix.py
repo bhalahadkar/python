@@ -53,6 +53,7 @@ def infixToPostfix(infixexpr):
 
 print(infixToPostfix("A * B + C * D"))
 print(infixToPostfix("( A + B ) * C - ( D - E ) * ( F + G )"))
+print(infixToPostfix("A + B * C + D "))
 
 def postFixEval(postFixExp):
     evalStack = Stack()
